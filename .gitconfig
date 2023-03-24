@@ -1,0 +1,8 @@
+# git config --add include.path ../.gitconfig
+[alias]
+  co = checkout
+  st = status
+  root = rev-parse --show-toplevel
+  
+[push]
+    default = current
